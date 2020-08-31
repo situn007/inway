@@ -1,12 +1,4 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
-/*header {
-  padding: 156px 0 100px;
-}*/
-header {
+ header {
   position: relative;
   background-color: black;
   height: 75vh;
@@ -46,7 +38,6 @@ header .overlay {
   opacity: 0.5;
   z-index: 1;
 }
-
 .box16{text-align:center;color:#fff;position:relative}
 .box16 .box-content,.box16:after{width:100%;position:absolute;left:0}
 .box16:after{content:"";height:100%;background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,.08) 69%,rgba(0,0,0,.76) 100%);top:0;transition:all .5s ease 0s}
@@ -93,8 +84,7 @@ header .overlay {
 
 /* Section - Block */
 /**************************/
-#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
-#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .block {background: white;}
 #parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
 
 /* Section - Parallax */
@@ -124,4 +114,195 @@ header .overlay {
 
 section {
   padding: 75px 0;
+}
+
+.webinar{
+  background: -webkit-linear-gradient(left, #424d40, #7a7572);
+  margin-top: 3%;
+  padding: 3%;
+}
+.webinar-left{
+  text-align: center;
+  color: #fff;
+  margin-top: 4%;
+}
+.webinar-left input{
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  width: 60%;
+  background: #f8f9fa;
+  font-weight: bold;
+  color: #383d41;
+  margin-top: 30%;
+  margin-bottom: 3%;
+  cursor: pointer;
+}
+.webinar-right{
+  background: #f8f9fa;
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+}
+.webinar-left img{
+  margin-top: 15%;
+  margin-bottom: 5%;
+  width: 25%;
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+.webinar-left p{
+  font-weight: lighter;
+  padding: 12%;
+  margin-top: -9%;
+}
+.webinar .webinar-form{
+  padding: 10%;
+  margin-top: 10%;
+}
+.btnwebinar{
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+.webinar .nav-tabs{
+  margin-top: 3%;
+  border: none;
+  background: #0062cc;
+  border-radius: 1.5rem;
+  width: 28%;
+  float: right;
+}
+.webinar .nav-tabs .nav-link{
+  padding: 2%;
+  height: 34px;
+  font-weight: 600;
+  color: #fff;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.webinar .nav-tabs .nav-link:hover{
+  border: none;
+}
+.webinar .nav-tabs .nav-link.active{
+  width: 100px;
+  color: #0062cc;
+  border: 2px solid #0062cc;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.webinar-heading{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
+}
+.img-fluid{
+  height: 600px;
+}
+
+
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+.register .nav-tabs .nav-link:hover{
+  border: none;
+}
+
+.form-new{
+  margin-right: 22%;
+  margin-left: 20%;
+}
+.register-heading{
+  margin-left: 21%;
+  margin-bottom: 10%;
+  color: #e9ecef;
+}
+.register-heading h1{
+  margin-left: 21%;
+  margin-bottom: 10%;
+  color: #e9ecef;
+}
+.register{
+  background: -webkit-linear-gradient(left, #e9eeed, #32474b);
+  margin-top: 3%;
+  padding: 3%;
+  border-radius: 1.5rem;
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #03612e;
+  border: none;
+  cursor: pointer;
+  margin-right: 6%;
+  color: rgb(246, 246, 252);
+  margin-top: 4%;
 }
